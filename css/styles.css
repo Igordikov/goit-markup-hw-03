@@ -169,12 +169,15 @@ img {
 .list-description {
   display: flex;
   gap: 24px;
+}
+
+.list-description-element {
   width: calc((100%-72px) / 4);
 }
 
 .title-second-section {
   font-weight: 500;
-  display: none;
+  visibility: hidden;
 }
 .title-of-peculiaritie {
   font-size: 20px;
@@ -207,12 +210,12 @@ img {
   text-align: center;
   color: #2e2f42;
   line-height: 1.11;
+  margin-bottom: 72px;
 }
 
 .team-list {
   display: flex;
   gap: 24px;
-  padding-bottom: 72px;
 }
 
 .img-our-team {
