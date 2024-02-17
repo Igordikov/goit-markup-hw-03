@@ -172,12 +172,11 @@ img {
 }
 
 .list-description-element {
-  width: calc((100%-72px) / 4);
+  flex-basis: calc((100%-72px) / 4);
 }
 
 .title-second-section {
   font-weight: 500;
-  visibility: hidden;
 }
 .title-of-peculiaritie {
   font-size: 20px;
