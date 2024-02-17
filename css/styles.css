@@ -119,6 +119,7 @@ img {
 .background-title {
   background-color: #2e2f42;
   min-height: 600px;
+  padding: 188px 0;
 }
 
 .text-title {
@@ -129,8 +130,8 @@ img {
   color: #fff;
   line-height: 1.07;
   margin: 0 auto;
-  width: 496px;
-  padding-top: 188px;
+  max-width: 496px;
+
   margin-bottom: 48px;
 }
 
@@ -144,8 +145,11 @@ img {
   cursor: pointer;
   margin: 0 auto;
   display: block;
-  min-width: 105px;
+  min-width: 169px;
   padding: 16px 32px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
 }
 
 .btn-title:hover {
@@ -158,16 +162,19 @@ img {
 
 /*PECULIARITIE*/
 
+.section-peculiarities {
+  padding: 120px 0;
+}
+
 .list-description {
   display: flex;
-  padding-top: 120px;
-  padding-bottom: 120px;
-  gap: 40px;
+  gap: 24px;
+  width: calc((100%-72px) / 4);
 }
 
 .title-second-section {
   font-weight: 500;
-  opacity: 0;
+  display: none;
 }
 .title-of-peculiaritie {
   font-size: 20px;
@@ -189,6 +196,7 @@ img {
 /* OUR TEAM */
 .our-team-section {
   background-color: #f4f4fd;
+  padding: 120px 0;
 }
 
 .our-team-title {
@@ -199,8 +207,6 @@ img {
   text-align: center;
   color: #2e2f42;
   line-height: 1.11;
-  padding-top: 120px;
-  margin-bottom: 72px;
 }
 
 .team-list {
