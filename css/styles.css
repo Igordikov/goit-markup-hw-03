@@ -215,10 +215,6 @@ img {
   padding: 120px 0;
 }
 
-.team-container {
-  padding: 32px 0;
-}
-
 .our-team-title {
   font-weight: 700;
   font-size: 36px;
@@ -252,9 +248,7 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
-  margin-top: 32px;
   margin-bottom: 8px;
-  width: calc((100%-72px) / 4);
 }
 
 .profession {
@@ -264,13 +258,11 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
-  padding-bottom: 32px;
 }
 
 /* OUR PORTFOLIO */
 
 .portfolio-section {
-  margin-bottom: 120px;
   padding: 120px 0;
 }
 
@@ -295,6 +287,7 @@ img {
 
 .img-our-portfolio {
   background-color: #fff;
+  width: calc((100%-48px) / 3);
 }
 .aplication {
   padding: 32px 16px;
@@ -318,7 +311,6 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  padding-left: 16px;
 }
 
 /* FOOTER */
@@ -336,7 +328,6 @@ img {
   text-transform: uppercase;
   color: #4d5ae5;
   line-height: 1.17;
-  padding-top: 100px;
   display: block;
   margin-bottom: 16px;
   display: inline-block;
